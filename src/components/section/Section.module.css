@@ -1,0 +1,18 @@
+.container {
+    width: 100%;
+    padding: 2rem 1rem;
+}
+
+.container.is-secondary {
+    background-color: var(--section-secondary);
+}
+
+.container.is-the-first {
+    margin-top: var(--header-height);
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding: 2rem 3rem;
+    }
+}

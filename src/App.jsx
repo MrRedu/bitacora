@@ -1,5 +1,7 @@
 import { Section } from './components/section/Section'
 import { Accordion } from './components/accordion/Accordion'
+import { Slider } from './components/slider/Slider'
+import { ScrollToTop } from './components/scroll-to-top/ScrollToTop'
 
 export const App = () => {
   return (
@@ -12,6 +14,12 @@ export const App = () => {
       <Section isSecondary>
         <h2>{`</Section>`}</h2>
       </Section>
+
+      {/* Don't need section component */}
+      <Slider />
+
+      {/* Absolute position */}
+      <ScrollToTop />
     </>
   )
 }
